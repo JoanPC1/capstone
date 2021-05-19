@@ -94,8 +94,9 @@ span {
 .intro {
     text-align: center;
     color:rgb(52, 148, 148);
+    font-weight: bold;
     background-color: white;
-    font-size: 33px;  
+    font-size: 30px;  
     animation: typing 3.5s steps(60, end),
     blink-caret .5s step-end 5s;
     overflow: hidden;
@@ -104,6 +105,9 @@ span {
     white-space: nowrap;
     letter-spacing: .15em;
     text-overflow: ellipsis;
+    max-height: auto;
+    max-width: 100%;
+    position: absolute;
 }
 
 @keyframes typing {
@@ -129,7 +133,8 @@ span {
 .intro2 {
     text-align: center;
     color:  rgb(52, 148, 148);
-    font-size: 33px;
+    font-size: 30px;
+    font-weight: bold;
     background-color: white;
     animation-name: fadein;
     animation-delay: 2.5s;
@@ -147,7 +152,7 @@ span {
     }
 }
 
-.front {
+.front, .frontbutton {
     text-align: center;
     animation-name: fadein;
     animation-delay: 2.5s;
@@ -170,6 +175,10 @@ span {
 .front > h1, .front > a {
         font-style: normal;
     }
+
+.frontbutton {
+    text-align: center;
+}
     
 .testimonial {
     font-style: italic;
@@ -196,6 +205,12 @@ span {
 .bg-image {
     max-height: auto;
     max-width: 100%;
+    background-image: url(caregiver3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
 }
 
 .column {
