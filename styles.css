@@ -122,12 +122,6 @@ span {
     }
 }
 
-@media screen and (max-width: 649px) {
-    .intro {
-        font-size: medium;
-    }
-}
-
 .intro:hover {
     overflow: visible;
 }
@@ -152,12 +146,6 @@ span {
         opacity: 1;
     }
 }
-
-@media screen and (max-width: 649px) {
-    .intro2 {
-        font-size: large;
-        }
-    }
 
 .front {
     text-align: center;
