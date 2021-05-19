@@ -108,6 +108,7 @@ span {
     max-height: auto;
     max-width: 100%;
     position: absolute;
+    flex-wrap: wrap;
 }
 
 @keyframes typing {
