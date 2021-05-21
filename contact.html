@@ -65,7 +65,7 @@
         <input type="text" name="email" id="email" placeholder="somebody@example.com">
         <br>
         <label for="phone">Phone Number:</label>
-        <input type="number" name="phone" id="phone" placeholder="(123)456-7890" required>
+        <input type="number" name="phone" id="phone" placeholder="1234567890" required>
         <br>
         <label for="zip">ZIP/Postal Code:</label>
         <input type="number" name="zipcode" id="zip" placeholder="60532" required>
@@ -97,8 +97,9 @@
         <label for="rep"><h3>How did you learn about us?</h3></label>
         <select name="rep" id="rep" onchange="repHandler()" required;>
           <option value="friend" selected>Friend/relative/acquaintance</option>
-          <option value="Church">Church bulletin board</option>
-          <option value="carefacility">Assisted living/nursing/other facility</option>
+          <option value="church">Church bulletin board</option>
+          <option value="assistedliving">Assisted living/retirement home</option>
+          <option value="nursing">Nursing/healthcare facility</option>
           <option value="magazine">Magazine advertisement</option>
           <option value="internet">Internet search</option>
           <option value="other" id="other">Other - please specify</option>
